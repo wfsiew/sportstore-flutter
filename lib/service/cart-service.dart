@@ -72,7 +72,7 @@ Future<void> updateItem(int productID, int quantity) async {
 
 Future<void> checkout(CheckoutForm fm) async {
   try {
-    var res = await dio.post('$url/checkout', data: fm);
+    await dio.post('$url/checkout', data: fm);
     await clear();
   }
 

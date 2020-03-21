@@ -40,7 +40,6 @@ class _QuantityInputState extends State<QuantityInput> {
 
   void setQty(String s) {
     int x = int.tryParse(s) ?? 1;
-    String v = x.toString();
     upDateTextQty(x);
   }
 
