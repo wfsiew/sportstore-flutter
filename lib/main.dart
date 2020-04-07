@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.red,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'My Store'),
       routes: routes,
     );
   }
@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return WillPopScope(
       onWillPop: willPop,
-      child: Home(title: 'Flutter Demo Home Page'),
+      child: Home(title: 'My Store'),
     );
   }
 }
