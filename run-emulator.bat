@@ -1,5 +1,5 @@
 @echo off
-cd C:\apps\Android\Sdk\emulator
+cd C:\Android\Sdk\emulator
 emulator -list-avds
-emulator -avd Nexus_6_API_28
+emulator -avd Nexus_5X_API_26
 pause
